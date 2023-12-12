@@ -2,7 +2,6 @@ import re
 
 
 def readFile(filename):
-	clean_lines = []
 	with open(filename, "r") as file:
 		lines = file.readlines()
 
